@@ -1,1 +1,1 @@
-web: nginx -g 'daemon off;' -c /app/config/nginx.conf.erb
+web: node server.js
