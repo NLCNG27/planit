@@ -1,1 +1,1 @@
-web: nginx -c config/nginx.conf.erb -p $PORT
+web: nginx -g 'daemon off;' -c /app/config/nginx.conf.erb
